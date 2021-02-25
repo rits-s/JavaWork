@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ReadTextByGivingRowNumber {
-	/*public void ReadData(int rowNumber) throws IOException {
+	public void ReadData(int rowNumber) throws IOException {
 		File f = new File("../JavaWork/textFileHandling.txt");
 		FileReader fr = new FileReader(f);
 		BufferedReader br = new BufferedReader(fr);
@@ -19,19 +19,18 @@ public class ReadTextByGivingRowNumber {
 				break;
 			}
 		}
-
 		br.close();
 	}
 
 	public static void main(String[] args) throws IOException {
 		ReadTextByGivingRowNumber result = new ReadTextByGivingRowNumber();
 		result.ReadData(2);
-		result.ReadData(6);
+		result.ReadData(5);
 
-	}*/
+	}
 	
 	
-	public void readData(int rowStart, int rowEnd) throws IOException {
+	/*public void readData(int rowStart, int rowEnd) throws IOException {
 		File f = new File("../JavaWork/textFileHandling.txt");
 		FileReader fr = new FileReader(f);
 		BufferedReader br = new BufferedReader(fr);
@@ -50,5 +49,5 @@ public class ReadTextByGivingRowNumber {
 		ReadTextByGivingRowNumber result = new ReadTextByGivingRowNumber();
 		result.readData(2,4);
 
-	}
+	}*/
 }

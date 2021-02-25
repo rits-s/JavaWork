@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class textFileHandlingLineByLine {
 	public static void main(String[] args) throws IOException {
@@ -14,6 +15,9 @@ public class textFileHandlingLineByLine {
 		while ((s = b.readLine()) != null) {
 			System.out.println(s);
 		}
+		b.close();
 	}
-
 }
+	
+	
+	
